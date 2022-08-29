@@ -50,7 +50,7 @@ app.get('/movies', function(req, res){
 //});
 
 // Implement the reviewers API endpoint
-app.get('/authors', function(req, res){
+app.get('/reviewers', function(req, res){
   var authors = [
     {name : 'Robert Smith', publication : 'The Daily Reviewer', avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/angelcolberg/128.jpg'},
     {name: 'Chris Harris', publication : 'International Movie Critic', avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/bungiwan/128.jpg'},
